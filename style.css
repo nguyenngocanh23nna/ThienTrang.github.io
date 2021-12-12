@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+section
+{
+    height: 1612vh;
+    overflow: hidden;
+    background: #000;
+}
+p{
+    position: relative;
+    font-size: 1em;
+    letter-spacing: -0.045em;
+    line-height: 0.8em;
+    background: url(./h.png), url(./h.png), url(./h.png);
+    background-blend-mode: color-dodge;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-clip: text;
+    color: transparent;
+}
